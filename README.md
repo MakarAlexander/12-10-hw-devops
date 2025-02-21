@@ -28,7 +28,12 @@
 3. В переменных чарта измените образ приложения для изменения версии.
 
 #### Решение
+Манифесты:
+- [Deployment](./netology-chart/templates/deployment.yaml)
+- [Service](./netology-chart/templates/service.yaml)
+- [Values](./netology-chart/values.yaml)
 
+![1-1](./1.png)
 
 ------
 ### Задание 2. Запустить две версии в разных неймспейсах
@@ -38,7 +43,14 @@
 3. Продемонстрируйте результат.
 
 #### Решение
+Манифесты с отдельными конфигурациями:
+- [Alphine](./netology-chart/alpine.yaml)
+- [Praqma](./netology-chart/praqma.yaml)
+- [Wbitt](./netology-chart/wbitt.yaml)
 
+![1-2](./2.png)
+![1-3](./3.png)
+![1-4](./4.png)
 
 ### Правила приёма работы
 
